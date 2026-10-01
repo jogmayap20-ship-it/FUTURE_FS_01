@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 214);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.section {
+    max-width: 80vw;
+    margin: 100px auto;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(255, 0, 255);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(255, 0, 255);
+}
+/* About Section */
+#about {
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin: 10px 0 25px;
+}
+
+#about p {
+    max-width: 800px;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #d0d0d0;
+}
+
+/* Education & Certifications */
+
+.education-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: stretch;
+}
+
+.education-card,
+.certifications-card {
+    flex: 1;
+    padding: 30px;
+    background-color: rgb(18, 18, 62);
+    border: 1px solid rgb(100, 90, 180);
+    border-radius: 12px;
+}
+
+.education-card h3,
+.certifications-card h3 {
+    color: rgb(255, 0, 255);
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.institution {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.cgpa {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cgpa span {
+    font-size: 1.2rem;
+}
+
+.cgpa strong {
+    font-size: 2.5rem;
+    color: rgb(255, 0, 255);
+}
+
+.certification-item {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(156, 151, 241, 0.3);
+}
+
+.certification-item:last-child {
+    border-bottom: none;
+}
+
+.certification-item h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.certification-item p {
+    margin: 0;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* Skills Section */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    width: 250px;
+    padding: 25px;
+    background-color: rgb(18, 18, 62);
+    border: 1px solid rgb(100, 90, 180);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+    color: rgb(255, 0, 255);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.skill-card p {
+    color: #d0d0d0;
+    line-height: 1.6;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(156, 151, 241, 0.25);
+}
+/* Projects Section */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(18, 18, 62);
+    border: 1px solid rgb(100, 90, 180);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+    color: rgb(255, 0, 255);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #d0d0d0;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.project-card .tech-stack {
+    color: rgb(156, 151, 241);
+    font-size: 0.9rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(156, 151, 241);
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: rgb(100, 90, 180);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(156, 151, 241, 0.25);
+}
+/* Resume Section */
+
+#resume {
+    text-align: center;
+}
+
+#resume p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgb(156, 151, 241);
+    color: rgb(0, 0, 33);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    transform: translateY(-3px);
+    background-color: rgb(255, 0, 255);
+}
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#contact > p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #d0d0d0;
+}
+
+/* Contact Form */
+#contact-form {
+    max-width: 600px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form label {
+    text-align: left;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(100, 90, 180);
+    border-radius: 6px;
+    background-color: rgb(18, 18, 62);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: rgb(255, 0, 255);
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+/* Send Button */
+#contact-form button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(156, 151, 241);
+    color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    transform: translateY(-3px);
+    background-color: rgb(255, 0, 255);
+}
+/* Footer */
+footer {
+    background-color: rgb(18, 18, 62);
+    padding: 30px 10%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: #d0d0d0;
+    font-size: 0.9rem;
+}
+
+footer div {
+    display: flex;
+    gap: 25px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: rgb(255, 0, 255);
+}
